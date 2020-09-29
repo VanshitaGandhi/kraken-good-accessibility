@@ -37,7 +37,6 @@ header strong,
 header p {
   margin: 0;
   font-weight: normal;
-  background-color: #1e7c74;
 }
 
 .by {
@@ -149,7 +148,7 @@ figcaption {
   padding: 0 1rem;
   font-style: italic;
   text-align: center;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.5rem;
 }
 
 article footer {
