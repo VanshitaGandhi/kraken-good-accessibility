@@ -30,12 +30,14 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+  background-color: #1e7c74;
 }
 
 header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  background-color: #1e7c74;
 }
 
 .by {
@@ -55,6 +57,10 @@ article header {
   border-radius: 0 0 6px 6px;
   color: #fff;
   padding: 0;
+}
+
+.banner {
+  background-color: #259f95;
 }
 
 h1 {
@@ -124,13 +130,13 @@ article div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+.style div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
 
 figure {
-  margin: 1.5rem 0;
+  margin: .5rem 0;
 }
 
 figure img {
@@ -143,6 +149,7 @@ figcaption {
   padding: 0 1rem;
   font-style: italic;
   text-align: center;
+  margin-bottom: 1.4rem;
 }
 
 article footer {
@@ -158,4 +165,24 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
+}
+
+.style {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bottom {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.last {
+  margin-bottom: 1.5rem;
+}
+
+.abovefooter {
+  margin-bottom: 1.5rem;
 }
